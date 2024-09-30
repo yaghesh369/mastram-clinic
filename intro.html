@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Management</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+
+    <!-- Add Patient Button -->
+    <div class="button-container">
+      <a href="add.html"><button class="center-button">ADD Patient</button></a>
+  </div>
+  
+
+    <!-- Patient List -->
+    <section id="patient-list">
+      <h2>Patient List</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Sr. No</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Treatment</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>John Doe</td>
+            <td>2024-09-27</td>
+            <td>10:00 AM</td>
+            <td>Dental Cleaning</td>
+            <td><button class="delete-btn">Delete</button></td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </section>
+
+    <!-- Today's Appointments -->
+    <section id="todays-appointments">
+      <h2>Today's Appointments</h2>
+      <table id="targetTable">
+        <thead>
+          <tr>
+            <th>Sr. No</th>
+            <th>Name</th>
+            <th>Date</th>
+            <th>Time</th>
+            <th>Treatment</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>1</td>
+            <td>Jane Smith</td>
+            <td>2024-09-27</td>
+            <td>11:00 AM</td>
+            <td>Consultation</td>
+            <td><button class="delete-btn">Delete</button></td>
+          </tr>
+          <!-- Add more rows as needed -->
+        </tbody>
+      </table>
+    </section>
+  </div>
+</body>
+</html>
